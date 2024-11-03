@@ -1,9 +1,9 @@
 # clear the R environment at the beginning
 rm(list = ls())
 
-# set Project location to access files
+# set Project location to access files if no R project is created
 getwd()
-setwd("C:/Users/shahn/Downloads/EnvEng/Summer_24/2. Ag-eco Modelling/SOC dynamics based on crop biomass")
+setwd()
 
 # Function to simulate maize growth with partitioning
 function_maizemodel_partition <- function(Tbase, RUE, K, alpha, LAImax, TTM, TTL, weather_year, sdate, ldate) {
