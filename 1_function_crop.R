@@ -3,7 +3,7 @@ rm(list = ls())
 
 # set Project location to access files if no R project is created
 getwd()
-setwd()
+#setwd()
 
 # Function to simulate maize growth with partitioning
 function_maizemodel_partition <- function(Tbase, RUE, K, alpha, LAImax, TTM, TTL, weather_year, sdate, ldate) {
